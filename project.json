@@ -1,0 +1,20 @@
+{
+  "id": 843,
+  "title": "Roof Inspection Drone Live Telemetry",
+  "repository_slug": "roof-inspection-drone-live-telemetry",
+  "category": "Drones",
+  "platform": "Pixhawk + Raspberry Pi",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 28,
+  "connectivity": "LTE",
+  "components": [
+    "battery monitor",
+    "camera"
+  ],
+  "scope": "Build a drones prototype that uses battery monitor, camera to stream position, battery, and sensor status. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Live Telemetry demonstration with repeatable test steps",
+  "mode": "edge_classification",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
